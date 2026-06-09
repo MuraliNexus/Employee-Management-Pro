@@ -1,7 +1,7 @@
-package com.example.Manytoone_onetoMany.Specifications;
+package com.murali.employeemanagement.Specifications;
 
-import com.example.Manytoone_onetoMany.Entity.Employee;
-import com.example.Manytoone_onetoMany.Entity.Project;
+import com.murali.employeemanagement.Entity.Employee;
+import com.murali.employeemanagement.Entity.Project;
 import jakarta.persistence.criteria.*;
 import org.springframework.data.jpa.domain.Specification;
 

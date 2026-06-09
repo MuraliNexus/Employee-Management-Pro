@@ -1,4 +1,4 @@
-package com.example.Manytoone_onetoMany;
+package com.murali.employeemanagement;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

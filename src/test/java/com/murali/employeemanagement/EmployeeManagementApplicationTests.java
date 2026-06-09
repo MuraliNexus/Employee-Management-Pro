@@ -1,4 +1,4 @@
-package com.example.Manytoone_onetoMany;
+package com.murali.employeemanagement;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

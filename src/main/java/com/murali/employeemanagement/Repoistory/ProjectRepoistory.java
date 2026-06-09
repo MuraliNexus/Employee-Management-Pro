@@ -1,6 +1,6 @@
-package com.example.Manytoone_onetoMany.Repoistory;
+package com.murali.employeemanagement.Repoistory;
 
-import com.example.Manytoone_onetoMany.Entity.Project;
+import com.murali.employeemanagement.Entity.Project;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ProjectRepoistory extends JpaRepository<Project,Long> {

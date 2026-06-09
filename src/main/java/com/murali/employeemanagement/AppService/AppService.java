@@ -1,15 +1,15 @@
-package com.example.Manytoone_onetoMany.AppService;
+package com.murali.employeemanagement.AppService;
 
 
-import com.example.Manytoone_onetoMany.Entity.Address;
-import com.example.Manytoone_onetoMany.Entity.Department;
-import com.example.Manytoone_onetoMany.Entity.Employee;
-import com.example.Manytoone_onetoMany.Entity.Project;
-import com.example.Manytoone_onetoMany.Repoistory.AddressRepoistory;
-import com.example.Manytoone_onetoMany.Repoistory.DepartmentRepoistory;
-import com.example.Manytoone_onetoMany.Repoistory.EmployeeRepoistory;
-import com.example.Manytoone_onetoMany.Repoistory.ProjectRepoistory;
-import com.example.Manytoone_onetoMany.Specifications.EmployeeSpecification;
+import com.murali.employeemanagement.Entity.Address;
+import com.murali.employeemanagement.Entity.Department;
+import com.murali.employeemanagement.Entity.Employee;
+import com.murali.employeemanagement.Entity.Project;
+import com.murali.employeemanagement.Repoistory.AddressRepoistory;
+import com.murali.employeemanagement.Repoistory.DepartmentRepoistory;
+import com.murali.employeemanagement.Repoistory.EmployeeRepoistory;
+import com.murali.employeemanagement.Repoistory.ProjectRepoistory;
+import com.murali.employeemanagement.Specifications.EmployeeSpecification;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.domain.Specification;

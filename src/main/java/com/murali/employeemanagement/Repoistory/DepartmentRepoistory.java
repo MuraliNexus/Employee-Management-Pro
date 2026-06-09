@@ -1,6 +1,6 @@
-package com.example.Manytoone_onetoMany.Repoistory;
+package com.murali.employeemanagement.Repoistory;
 
-import com.example.Manytoone_onetoMany.Entity.Department;
+import com.murali.employeemanagement.Entity.Department;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

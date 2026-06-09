@@ -1,10 +1,9 @@
-package com.example.Manytoone_onetoMany.Entity;
+package com.murali.employeemanagement.Entity;
 
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
-import org.hibernate.annotations.Fetch;
 
 import java.util.List;
 

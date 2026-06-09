@@ -1,4 +1,4 @@
-package com.example.Manytoone_onetoMany.Entity;
+package com.murali.employeemanagement.Entity;
 
 
 import com.fasterxml.jackson.annotation.JsonIgnore;

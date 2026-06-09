@@ -1,8 +1,7 @@
-package com.example.Manytoone_onetoMany.Entity;
+package com.murali.employeemanagement.Entity;
 
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
 
