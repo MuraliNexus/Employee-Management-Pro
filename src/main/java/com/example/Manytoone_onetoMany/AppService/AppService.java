@@ -11,13 +11,10 @@ import com.example.Manytoone_onetoMany.Repoistory.EmployeeRepoistory;
 import com.example.Manytoone_onetoMany.Repoistory.ProjectRepoistory;
 import com.example.Manytoone_onetoMany.Specifications.EmployeeSpecification;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.PathVariable;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Service
@@ -116,7 +113,7 @@ public class AppService {
         projectRepoistory.deleteById(id);
     }
 
-    public void getAllProjects() {
-        projectRepoistory.findAll();
+    public List<Project> getAllProjects() {
+       return projectRepoistory.findAll();
     }
 }

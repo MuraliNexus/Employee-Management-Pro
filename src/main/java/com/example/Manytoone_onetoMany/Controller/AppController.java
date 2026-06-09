@@ -95,7 +95,7 @@ public class AppController {
 
     @GetMapping("/projects")
     public List<Project> getAllProjects(){
-        appService.getAllProjects();
+       return appService.getAllProjects();
     }
 
 
