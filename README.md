@@ -18,6 +18,11 @@ This project manages Employees, Departments, Addresses, and Projects while showc
 * MySQL Database Integration
 
 ---
+## Entity Relationship Diagram
+
+![Entity Relationship Diagram](relationship.JPG)
+
+---
 
 ## 🛠️ Tech Stack
 
@@ -307,9 +312,6 @@ spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.format_sql=true
 ```
-## Entity Relationship Diagram
-
-![Entity Relationship Diagram](relationship.JPG)
 
 ---
 
