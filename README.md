@@ -327,6 +327,96 @@ spring.jpa.properties.hibernate.format_sql=true
 
 ![Filter Pagination Sorting](filter_sorting_pagination.JPG)
 
+---
+# 🔄 Application Flow
+
+### 1. Create Departments
+
+The HR administrator creates departments such as:
+
+* Human Resources
+* Information Technology
+* Finance
+* Marketing
+* Operations
+
+Each department is assigned a unique Department ID.
+
+⬇️
+
+### 2. Create Projects
+
+The administrator creates projects such as:
+
+* Employee Portal
+* Payroll System
+* Attendance Management
+* Recruitment Tracking
+* Performance Dashboard
+
+Each project is assigned a unique Project ID.
+
+⬇️
+
+### 3. Create Employees
+
+While creating an employee, the administrator selects:
+
+* Employee Name
+* Department ID
+* One or More Project IDs
+* City
+* State
+
+Example:
+
+Department ID → 2 (Information Technology)
+
+Project IDs → 1, 3, 5
+
+The application automatically establishes:
+
+* Many-to-One → Employee → Department
+* One-to-One → Employee → Address
+* Many-to-Many → Employee ↔ Projects
+
+⬇️
+
+### 4. Store Data in MySQL
+
+All employee, department, project, address, and relationship data are stored in MySQL using Spring Data JPA and Hibernate.
+
+⬇️
+
+### 5. Retrieve Employees
+
+Users can retrieve employee information using:
+
+* Dynamic Filtering
+* Pagination
+* Sorting
+
+Examples:
+
+* Filter by Department
+* Filter by Project
+* Filter by City
+* Sort by Employee ID
+* Paginate Results
+
+⬇️
+
+### 6. Display Results
+
+The application returns structured JSON responses containing:
+
+* Employee Details
+* Department Information
+* Assigned Projects
+* Address Information
+
+This enables efficient employee management and data retrieval in an HR environment.
+
 
 ---
 
