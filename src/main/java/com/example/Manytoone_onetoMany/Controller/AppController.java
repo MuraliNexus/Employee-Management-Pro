@@ -93,6 +93,10 @@ public class AppController {
          appService.DeleteProject(id);
     }
 
+    @GetMapping("/projects")
+    public List<Project> getAllProjects(){
+        appService.getAllProjects();
+    }
 
 
 

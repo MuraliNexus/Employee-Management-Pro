@@ -115,4 +115,8 @@ public class AppService {
     public void DeleteProject(Long id) {
         projectRepoistory.deleteById(id);
     }
+
+    public void getAllProjects() {
+        projectRepoistory.findAll();
+    }
 }
